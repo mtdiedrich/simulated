@@ -1,12 +1,4 @@
-gym
 numpy
 pygame
-stable-baselines3
-torch
-matplotlib
-# Additional dependencies for NFS bot (install separately if needed)
-# mss>=6.1.0  # Fast screen capture
-# pillow>=8.0.0  # Image processing (already included above)
-# pynput>=1.7.0  # Input monitoring and simulation
-# pyautogui>=0.9.50  # Alternative input simulation
-# scipy>=1.7.0  # For image resizing without PIL
+PyOpenGL
+PyOpenGL_accelerate
