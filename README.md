@@ -2,17 +2,76 @@
 
 A comprehensive AI simulation platform featuring:
 1. **1v1 Soccer Simulation** - Reinforcement learning agents that learn to play soccer
-2. **Need for Speed: Carbon Bot** - Neural network that learns to play NFS Carbon from human gameplay
+2. **Ecosystem Simulation** - Complex multi-species ecosystem with predator-prey dynamics
+3. **Need for Speed: Carbon Bot** - Neural network that learns to play NFS Carbon from human gameplay
 
 ## Projects
 
-### 1. Soccer Simulation (Reinforcement Learning)
+### 1. Ecosystem Simulation (Multi-Species Environment)
+
+A robust and in-depth ecosystem simulation that handles multiple species, prey-predator relationships, environmental niches, and population dynamics.
+
+#### Features
+- **Multiple Species Types**: Plants (producers), herbivores (primary consumers), carnivores (secondary consumers), and omnivores
+- **Predator-Prey Relationships**: Complex food webs with realistic hunting and consumption mechanics
+- **Environmental Niches**: Four distinct habitats (grassland, forest, water, rocky) with different resource characteristics
+- **Population Dynamics**: Birth, death, reproduction, aging, and energy-based survival
+- **Spatial Interactions**: Movement, territory, and resource competition in 2D space
+- **Resource Management**: Energy systems, carrying capacity, and environmental constraints
+
+#### Species and Interactions
+- **Plants** (Grass, Trees): Primary producers that gain energy through photosynthesis
+- **Herbivores** (Rabbits, Deer): Consume plants, serve as prey for carnivores
+- **Carnivores** (Wolves, Hawks): Hunt herbivores, top predators in the food chain
+- **Omnivores** (Bears): Eat both plants and herbivores, adaptive feeders
+
+#### Quick Start
+```bash
+# Run ecosystem demonstration
+python train_ecosystem.py
+
+# Run ecosystem tests
+python test_ecosystem.py
+
+# Demo with visualization
+python demo_ecosystem.py
+
+# Training analysis
+python train_ecosystem.py train
+```
+
+### 2. Soccer Simulation (Reinforcement Learning)
 
 A 1v1 soccer environment where two AI agents learn to play soccer through Q-learning reinforcement learning.
 
-### 2. Need for Speed: Carbon Bot (Imitation Learning)
+### 3. Need for Speed: Carbon Bot (Imitation Learning)
 
 A neural network-based bot that learns to play Need for Speed: Carbon by watching and imitating human gameplay.
+
+## Ecosystem Simulation Overview
+
+This project implements a comprehensive multi-species ecosystem simulation featuring complex predator-prey relationships, environmental niches, and realistic population dynamics. The simulation models interactions between producers (plants), primary consumers (herbivores), secondary consumers (carnivores), and omnivores in a spatially explicit environment.
+
+### Ecosystem Components
+
+#### Environmental System
+- **Multiple Niches**: Grassland, forest, water, and rocky habitats with distinct characteristics
+- **Resource Distribution**: Variable plant growth rates and water availability across niches
+- **Carrying Capacity**: Each niche has limits on organism density
+- **Spatial Dynamics**: 2D environment with movement and territorial behavior
+
+#### Species Hierarchy
+- **Plants** (Grass, Trees): Autotrophic organisms that convert environmental resources to energy
+- **Herbivores** (Rabbits, Deer): Primary consumers that feed on plants
+- **Carnivores** (Wolves, Hawks): Secondary consumers that hunt herbivores  
+- **Omnivores** (Bears): Adaptive feeders that consume both plants and animals
+
+#### Population Mechanics
+- **Energy Systems**: All organisms have energy that affects survival and reproduction
+- **Life Cycles**: Birth, growth, reproduction, aging, and death
+- **Predation**: Hunting mechanics with vision range and success rates
+- **Competition**: Resource competition affects population growth
+- **Adaptation**: Species behavior adapts to local conditions
 
 ## Soccer Simulation Overview
 
