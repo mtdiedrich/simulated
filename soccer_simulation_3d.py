@@ -979,3 +979,47 @@ class Soccer3DSimulation:
         result.append("Legend: * = ball on ground, o = ball medium height, O = ball high, ^ = jumping agent")
         
         return '\n'.join(result)
+    
+    def run_with_3d_visualization(self, episodes: int = 1, use_3d: bool = True) -> Dict[str, Any]:
+        """Run simulation with optional 3D visualization."""
+        results = []
+        
+        if use_3d:
+            try:
+                from renderer_3d import Soccer3DVisualization
+                viz = Soccer3DVisualization()
+                print("Starting simulation with 3D visualization...")
+                viz.run_training_with_visualization(episodes=episodes, steps_per_episode=self.episode_length)
+                
+                # Return final statistics
+                return {
+                    'episodes': episodes,
+                    'final_score': self.score.copy(),
+                    'agent1_q_table_size': len(self.agent1.q_table),
+                    'agent2_q_table_size': len(self.agent2.q_table),
+                    'visualization': '3D'
+                }
+                
+            except Exception as e:
+                print(f"3D visualization failed: {e}")
+                print("Falling back to ASCII visualization...")
+                use_3d = False
+        
+        if not use_3d:
+            # Fallback to regular ASCII simulation
+            for episode in range(episodes):
+                result = self.run_episode()
+                results.append(result)
+                print(f"Episode {episode + 1}/{episodes}: Score {result['final_score']} in {result['steps']} steps")
+                if episode < episodes - 1:  # Don't print on last episode
+                    print(self.visualize_ascii_3d())
+                    print()
+            
+            return {
+                'episodes': episodes,
+                'results': results,
+                'final_score': self.score.copy(),
+                'agent1_q_table_size': len(self.agent1.q_table),
+                'agent2_q_table_size': len(self.agent2.q_table),
+                'visualization': 'ASCII'
+            }
