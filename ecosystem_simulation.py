@@ -162,12 +162,12 @@ class Organism:
     def _get_energy_consumption_rate(self) -> float:
         """Get energy consumption per step."""
         rates = {
-            SpeciesType.PLANT: 0.1,  # Plants lose less energy
-            SpeciesType.HERBIVORE: 0.5,
-            SpeciesType.CARNIVORE: 0.8,
-            SpeciesType.OMNIVORE: 0.6
+            SpeciesType.PLANT: 0.05,  # Plants lose very little energy
+            SpeciesType.HERBIVORE: 0.3,  # Reduced consumption
+            SpeciesType.CARNIVORE: 0.4,  # Reduced consumption  
+            SpeciesType.OMNIVORE: 0.35   # Reduced consumption
         }
-        return rates.get(self.species_type, 0.5)
+        return rates.get(self.species_type, 0.3)
     
     def can_eat(self, other: 'Organism') -> bool:
         """Check if this organism can eat another organism."""
@@ -249,7 +249,7 @@ class Organism:
         # Plants gain energy from photosynthesis based on niche
         if self.species_type == SpeciesType.PLANT:
             plant_growth = environment.get_resource_quality(self.position, 'plant_growth_rate')
-            energy_gain = plant_growth * 2.0  # Reduced energy gain
+            energy_gain = plant_growth * 3.0  # Increased energy gain for plants
             self.energy += energy_gain
             self.energy = min(self.energy, self.max_energy)
         else:
@@ -342,6 +342,10 @@ class EcosystemSimulation:
         self.step_count = 0
         self.max_steps = 10000
         
+        # Plant regeneration system
+        self.plant_regeneration_rate = 0.001  # Chance per step per location
+        self.max_plants_per_niche = {'grass': 100, 'trees': 50}
+        
         # Initialize diverse ecosystem
         self._initialize_ecosystem()
         
@@ -350,20 +354,20 @@ class EcosystemSimulation:
     
     def _initialize_ecosystem(self):
         """Initialize the ecosystem with various species."""
-        # Plants - primary producers
-        self.populations['grass'] = Population('grass', SpeciesType.PLANT, 40, self.environment)
-        self.populations['trees'] = Population('trees', SpeciesType.PLANT, 20, self.environment)
+        # Plants - primary producers (more plants for stability)
+        self.populations['grass'] = Population('grass', SpeciesType.PLANT, 60, self.environment)
+        self.populations['trees'] = Population('trees', SpeciesType.PLANT, 30, self.environment)
         
-        # Herbivores - primary consumers  
-        self.populations['rabbits'] = Population('rabbits', SpeciesType.HERBIVORE, 15, self.environment)
-        self.populations['deer'] = Population('deer', SpeciesType.HERBIVORE, 8, self.environment)
+        # Herbivores - primary consumers (fewer herbivores to prevent plant overconsumption)
+        self.populations['rabbits'] = Population('rabbits', SpeciesType.HERBIVORE, 8, self.environment)
+        self.populations['deer'] = Population('deer', SpeciesType.HERBIVORE, 5, self.environment)
         
-        # Carnivores - secondary consumers
-        self.populations['wolves'] = Population('wolves', SpeciesType.CARNIVORE, 3, self.environment)
+        # Carnivores - secondary consumers (very few to maintain balance)
+        self.populations['wolves'] = Population('wolves', SpeciesType.CARNIVORE, 2, self.environment)
         self.populations['hawks'] = Population('hawks', SpeciesType.CARNIVORE, 2, self.environment)
         
-        # Omnivores
-        self.populations['bears'] = Population('bears', SpeciesType.OMNIVORE, 2, self.environment)
+        # Omnivores (balanced feeders)
+        self.populations['bears'] = Population('bears', SpeciesType.OMNIVORE, 1, self.environment)
     
     def get_all_organisms(self) -> List[Organism]:
         """Get all organisms from all populations."""
@@ -380,6 +384,9 @@ class EcosystemSimulation:
         for population in self.populations.values():
             population.update(all_organisms, self.environment)
         
+        # Plant regeneration system
+        self._regenerate_plants()
+        
         self.step_count += 1
         
         # Collect statistics
@@ -392,6 +399,29 @@ class EcosystemSimulation:
             'populations': {name: pop.get_count() for name, pop in self.populations.items()},
             'statistics': stats
         }
+    
+    def _regenerate_plants(self):
+        """Regenerate plants naturally in suitable niches."""
+        for plant_type in ['grass', 'trees']:
+            current_count = self.populations[plant_type].get_count()
+            max_count = self.max_plants_per_niche[plant_type]
+            
+            if current_count < max_count:
+                # Try to add new plants based on regeneration rate
+                regeneration_attempts = int((max_count - current_count) * self.plant_regeneration_rate * 10)
+                
+                for _ in range(regeneration_attempts):
+                    if random.random() < self.plant_regeneration_rate:
+                        # Find suitable location
+                        position = Vector2D(
+                            random.uniform(0, self.environment.width),
+                            random.uniform(0, self.environment.height)
+                        )
+                        
+                        # Create new plant
+                        species_type = SpeciesType.PLANT
+                        new_plant = Organism(plant_type, species_type, position, age=0, energy=80.0)
+                        self.populations[plant_type].organisms.append(new_plant)
     
     def run_simulation(self, steps: int = 1000) -> Dict[str, Any]:
         """Run the simulation for a specified number of steps."""
