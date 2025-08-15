@@ -1,66 +1,40 @@
 # Simulated Gaming AI
 
 A comprehensive AI simulation platform featuring:
-1. **1v1 Soccer Simulation** - Reinforcement learning agents that learn to play soccer
-2. **Need for Speed: Carbon Bot** - Neural network that learns to play NFS Carbon from human gameplay
+1. **3D Soccer Simulation** - Reinforcement learning agents that learn to play soccer in a 3D environment with physics
 
 ## Projects
 
-### 1. Soccer Simulation (Reinforcement Learning)
+### 1. 3D Soccer Simulation (Reinforcement Learning)
 
-A 1v1 soccer environment where two AI agents learn to play soccer through Q-learning reinforcement learning.
-
-### 2. Need for Speed: Carbon Bot (Imitation Learning)
-
-A neural network-based bot that learns to play Need for Speed: Carbon by watching and imitating human gameplay.
+A 1v1 soccer environment where two AI agents learn to play soccer through Q-learning reinforcement learning in a full 3D environment with realistic physics, collision detection, and 3D model visualization.
 
 ## Soccer Simulation Overview
 
-This project implements both 2D and 3D soccer environments where AI agents learn to play soccer through reinforcement learning. 
+This project implements a 3D soccer environment where AI agents learn to play soccer through reinforcement learning with full 3D physics, collision detection, and realistic 3D model visualization.
 
-### 2D Soccer Simulation
-The original 2D simulation uses Q-learning with an epsilon-greedy policy to train agents that can move around a soccer field, chase the ball, and attempt to score goals.
-
-### 3D Soccer Simulation (NEW!)
-The enhanced 3D simulation adds full physics simulation with:
+### 3D Soccer Simulation with Physics
+The simulation features full 3D physics simulation with:
 - **3D Physics Engine**: Complete collision detection and resolution
-- **Realistic Ball Physics**: Gravity, bouncing, air resistance, and spin
+- **Realistic Ball Physics**: Gravity, bouncing, air resistance, and spin  
 - **Player Colliders**: Sphere colliders for players and ball with collision resolution
 - **3D Field**: Field boundaries, walls, goal posts, and ground plane
 - **Extended Actions**: Jump, power kicks, headers, and 3D movement
 - **Advanced AI**: Enhanced state space with 3D coordinates and height awareness
+- **3D Model Visualization**: Real-time 3D rendering of field, players, and ball
 
 ## Features
 
-### 2D Soccer Simulation
-- **2D Soccer Field**: Simple rectangular field with goals on each side
-- **Physics Simulation**: Basic ball physics with movement, friction, and collision
-- **AI Agents**: Two learning agents using Q-learning for decision making
-- **Reinforcement Learning**: Agents learn through rewards for ball possession, scoring, and good positioning
-- **Training Loop**: Automated training with progress tracking and statistics
-- **Visualization**: ASCII-based field visualization to monitor agent behavior
-
-### 3D Soccer Simulation (NEW!)
+### 3D Soccer Simulation with Physics
 - **3D Soccer Field**: Full 3D field with boundaries, walls, goal posts, and colliders
 - **Advanced Physics**: Complete physics engine with gravity, collision detection, and resolution
 - **Realistic Ball Physics**: 3D ball movement with bouncing, air resistance, and realistic trajectories
 - **Player Physics**: 3D agent movement with jumping, collision detection, and realistic movement
 - **Enhanced AI**: Extended action space (12 actions) and 3D-aware state representation
 - **Collision System**: Sphere and box colliders for realistic object interactions
-- **3D Visualization**: ASCII visualization with height information and jumping indicators
+- **3D Model Visualization**: Real-time 3D rendering using modern graphics with field, player, and ball models
 
 ## Quick Start
-
-### 2D Soccer Simulation
-```python
-from soccer_simulation import SoccerSimulation
-
-# Create and run 2D simulation
-sim = SoccerSimulation()
-result = sim.run_episode()
-print(f"Episode completed in {result['steps']} steps")
-print(f"Final score: {result['final_score']}")
-```
 
 ### 3D Soccer Simulation
 ```python
@@ -78,9 +52,6 @@ print(sim.visualize_ascii_3d())
 
 ### Running Tests
 ```bash
-# Test 2D simulation
-python test_simulation.py
-
 # Test 3D simulation
 python test_simulation_3d.py
 
@@ -95,14 +66,7 @@ python demo_3d_soccer.py
 
 ### Core Classes
 
-**2D Simulation:**
-- **Vector2D**: 2D vector mathematics for positions and velocities
-- **SoccerField**: Field boundaries, goals, and collision detection
-- **Ball**: Ball physics with movement, friction, and kicking mechanics
-- **Agent**: AI agent with Q-learning, action selection, and reward processing
-- **SoccerSimulation**: Main simulation orchestrating the entire game
-
-**3D Simulation (NEW!):**
+**3D Simulation:**
 - **Vector3D**: 3D vector mathematics with dot/cross products and advanced operations
 - **Collider**: Base class for collision detection (SphereCollider, BoxCollider)
 - **PhysicsEngine**: Complete physics simulation with collision detection and resolution
@@ -113,17 +77,7 @@ python demo_3d_soccer.py
 
 ### Learning System
 
-**2D Learning:**
-- **Q-Learning**: Tabular reinforcement learning for agent decision making
-- **State Space**: Discretized positions and game conditions
-- **Action Space**: 8-directional movement with automatic ball kicking
-- **Reward System**: 
-  - +100 for scoring goals
-  - -100 for opponent scoring
-  - Small rewards for ball possession and good positioning
-  - Penalties for being too far from action
-
-**3D Learning (Enhanced):**
+**3D Learning:**
 - **Q-Learning**: Extended Q-learning with 3D state awareness
 - **State Space**: 3D discretized positions, ball height, jumping states, and tactical awareness
 - **Action Space**: 12 actions including:
@@ -133,87 +87,14 @@ python demo_3d_soccer.py
   - Power kick for stronger shots
   - Header/precise kick for aerial balls
 - **Enhanced Rewards**:
-  - All 2D rewards plus:
+  - +100 for scoring goals
+  - -100 for opponent scoring
+  - Small rewards for ball possession and good positioning
   - Rewards for aerial ball control
   - Penalties for excessive jumping
   - Tactical positioning rewards based on ball height
 
-## Need for Speed: Carbon Bot
-
-### Quick Start
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Collect training data (5 minutes of gameplay)
-python train_nfs_bot.py collect --duration 5
-
-# Train the neural network
-python train_nfs_bot.py train --epochs 20
-
-# Run the trained bot
-python train_nfs_bot.py run path/to/model.pth
-
-# Interactive example
-python nfs_bot_example.py
-```
-
-### How It Works
-
-1. **Data Collection**: Records your screen and inputs while playing NFS Carbon
-2. **Neural Network Training**: Trains a CNN to map screen captures to actions
-3. **Bot Execution**: Uses the trained model to play the game autonomously
-
-### Features
-
-- **Screen Capture**: Real-time capture of game footage
-- **Input Monitoring**: Records keyboard and mouse inputs
-- **CNN Model**: Deep learning model for action prediction
-- **Bot Controller**: Autonomous game playing with input simulation
-- **Training Pipeline**: Complete workflow from data to trained bot
-
-### System Requirements
-
-- Python 3.7+
-- Need for Speed: Carbon game
-- Adequate GPU recommended for training (CPU works but slower)
-
-### File Structure
-
-```
-├── train_nfs_bot.py          # Main training script
-├── nfs_bot_controller.py     # Bot controller for autonomous play
-├── nfs_bot_model.py          # Neural network model
-├── data_collector.py         # Data collection system
-├── screen_capture.py         # Screen capture utilities
-├── input_capture.py          # Input monitoring utilities
-├── nfs_bot_example.py        # Interactive examples
-├── nfs_training_data/        # Training data storage
-└── nfs_models/               # Saved models
-```
-
-## Soccer Simulation (Original)
-
-### Running the Simulation
-
-```bash
-# Run training and demonstration
-python3 train_agents.py
-
-# Run tests
-python3 test_simulation.py
-```
-
-### Training Parameters
-
-The training can be customized by modifying parameters in `train_agents.py`:
-
-- `num_episodes`: Number of training episodes (default: 50)
-- `episode_length`: Steps per episode (default: 1000)
-- `learning_rate`: Q-learning rate (default: 0.1)
-- `discount_factor`: Future reward discount (default: 0.9)
-- `epsilon`: Exploration rate (default: 0.3, decays during training)
+## Soccer Simulation
 
 ### Output
 
@@ -257,9 +138,9 @@ This simulation provides a foundation that can be extended in many ways:
 - ✅ **Player Physics**: 3D movement, jumping, and collision between players
 - ✅ **Continuous Actions**: Enhanced action space with jumping and special moves
 
-### Rich Environment ✅ (PARTIALLY IMPLEMENTED)
-- ✅ **3D Visualization**: ASCII visualization with height information
-- **Visual Interface**: Pygame or similar for real-time 3D visualization
+### Rich Environment ✅ (IMPLEMENTED)
+- ✅ **3D Physics**: Complete collision detection and physics simulation
+- ✅ **3D Model Visualization**: Real-time 3D rendering with field, player, and ball models
 - **Multiple Players**: Extend to 2v2 or larger teams
 - **Field Complexity**: Obstacles, different field shapes, or multiple balls
 
@@ -272,8 +153,10 @@ This simulation provides a foundation that can be extended in many ways:
 ## Technical Details
 
 ### Dependencies
-- Python 3.6+ (uses only standard library)
-- No external dependencies required for basic functionality
+- Python 3.6+
+- pygame: For 3D graphics and visualization
+- PyOpenGL: For 3D rendering (OpenGL bindings)
+- numpy: For mathematical operations (if not already available)
 
 ### Architecture
 - Modular design with separated concerns

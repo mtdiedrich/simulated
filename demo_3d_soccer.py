@@ -3,6 +3,8 @@
 
 Demonstrates the 3D soccer simulation with physics and colliders.
 Shows how agents learn to play soccer in a 3D environment with realistic ball physics.
+
+For the enhanced 3D visualization demo, use demo_3d_enhanced.py
 """
 
 import time
@@ -18,6 +20,10 @@ def clear_screen():
 def demo_basic_3d_simulation():
     """Demonstrate basic 3D simulation functionality."""
     print("=== 3D Soccer Simulation Demo ===\n")
+    
+    # Note about enhanced demo
+    print("📢 NEW: For enhanced 3D model visualization, run: python demo_3d_enhanced.py")
+    print("   This demo shows the ASCII visualization with 3D physics.\n")
     
     sim = Soccer3DSimulation()
     
