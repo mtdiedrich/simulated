@@ -1,0 +1,2647 @@
+{
+  "summary": {
+    "num_runs": 5,
+    "steps_per_run": 200,
+    "avg_stability": 0.01,
+    "avg_diversity": 0.02857142857142857,
+    "best_run": 5,
+    "best_score": 0.13785714285714284
+  },
+  "detailed_results": [
+    {
+      "run": 1,
+      "result": {
+        "final_step": 169,
+        "final_populations": {
+          "grass": 0,
+          "trees": 0,
+          "rabbits": 0,
+          "deer": 0,
+          "wolves": 0,
+          "hawks": 0,
+          "bears": 0
+        },
+        "statistics_history": [
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 93.0,
+              "avg_energy": 22.100000000000147,
+              "total_energy": 44.200000000000294
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 44.200000000000294,
+              "species_diversity": 1,
+              "step": 160
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 94.0,
+              "avg_energy": 21.800000000000146,
+              "total_energy": 43.60000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 43.60000000000029,
+              "species_diversity": 1,
+              "step": 161
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 95.0,
+              "avg_energy": 21.500000000000146,
+              "total_energy": 43.00000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 43.00000000000029,
+              "species_diversity": 1,
+              "step": 162
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 96.0,
+              "avg_energy": 21.200000000000145,
+              "total_energy": 42.40000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 42.40000000000029,
+              "species_diversity": 1,
+              "step": 163
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 97.0,
+              "avg_energy": 20.900000000000144,
+              "total_energy": 41.80000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 41.80000000000029,
+              "species_diversity": 1,
+              "step": 164
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 96.0,
+              "avg_energy": 21.200000000000145,
+              "total_energy": 21.200000000000145
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 21.200000000000145,
+              "species_diversity": 1,
+              "step": 165
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 97.0,
+              "avg_energy": 20.900000000000144,
+              "total_energy": 20.900000000000144
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.900000000000144,
+              "species_diversity": 1,
+              "step": 166
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 98.0,
+              "avg_energy": 20.600000000000144,
+              "total_energy": 20.600000000000144
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.600000000000144,
+              "species_diversity": 1,
+              "step": 167
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 99.0,
+              "avg_energy": 20.300000000000143,
+              "total_energy": 20.300000000000143
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.300000000000143,
+              "species_diversity": 1,
+              "step": 168
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 0,
+              "total_energy": 0,
+              "species_diversity": 0,
+              "step": 169
+            }
+          }
+        ],
+        "ecosystem_stable": false
+      },
+      "analysis": {
+        "stability_score": 0.0,
+        "diversity_score": 0.0,
+        "balance_score": 0.0,
+        "overall_score": 0.0,
+        "surviving_species": 0,
+        "total_organisms": 0,
+        "trophic_levels": 0
+      }
+    },
+    {
+      "run": 2,
+      "result": {
+        "final_step": 165,
+        "final_populations": {
+          "grass": 0,
+          "trees": 0,
+          "rabbits": 0,
+          "deer": 0,
+          "wolves": 0,
+          "hawks": 0,
+          "bears": 0
+        },
+        "statistics_history": [
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 91.0,
+              "avg_energy": 22.70000000000015,
+              "total_energy": 22.70000000000015
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 95.0,
+              "avg_energy": 21.500000000000146,
+              "total_energy": 21.500000000000146
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 44.200000000000294,
+              "species_diversity": 2,
+              "step": 156
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 92.0,
+              "avg_energy": 22.400000000000148,
+              "total_energy": 22.400000000000148
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 96.0,
+              "avg_energy": 21.200000000000145,
+              "total_energy": 21.200000000000145
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 43.60000000000029,
+              "species_diversity": 2,
+              "step": 157
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 93.0,
+              "avg_energy": 22.100000000000147,
+              "total_energy": 22.100000000000147
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 97.0,
+              "avg_energy": 20.900000000000144,
+              "total_energy": 20.900000000000144
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 43.00000000000029,
+              "species_diversity": 2,
+              "step": 158
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 94.0,
+              "avg_energy": 21.800000000000146,
+              "total_energy": 21.800000000000146
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 98.0,
+              "avg_energy": 20.600000000000144,
+              "total_energy": 20.600000000000144
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 42.40000000000029,
+              "species_diversity": 2,
+              "step": 159
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 95.0,
+              "avg_energy": 21.500000000000146,
+              "total_energy": 21.500000000000146
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 99.0,
+              "avg_energy": 20.300000000000143,
+              "total_energy": 20.300000000000143
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 41.80000000000029,
+              "species_diversity": 2,
+              "step": 160
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 96.0,
+              "avg_energy": 21.200000000000145,
+              "total_energy": 21.200000000000145
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 21.200000000000145,
+              "species_diversity": 1,
+              "step": 161
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 97.0,
+              "avg_energy": 20.900000000000144,
+              "total_energy": 20.900000000000144
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.900000000000144,
+              "species_diversity": 1,
+              "step": 162
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 98.0,
+              "avg_energy": 20.600000000000144,
+              "total_energy": 20.600000000000144
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.600000000000144,
+              "species_diversity": 1,
+              "step": 163
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 99.0,
+              "avg_energy": 20.300000000000143,
+              "total_energy": 20.300000000000143
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.300000000000143,
+              "species_diversity": 1,
+              "step": 164
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 0,
+              "total_energy": 0,
+              "species_diversity": 0,
+              "step": 165
+            }
+          }
+        ],
+        "ecosystem_stable": false
+      },
+      "analysis": {
+        "stability_score": 0.0,
+        "diversity_score": 0.0,
+        "balance_score": 0.0,
+        "overall_score": 0.0,
+        "surviving_species": 0,
+        "total_organisms": 0,
+        "trophic_levels": 0
+      }
+    },
+    {
+      "run": 3,
+      "result": {
+        "final_step": 152,
+        "final_populations": {
+          "grass": 0,
+          "trees": 0,
+          "rabbits": 0,
+          "deer": 0,
+          "wolves": 0,
+          "hawks": 0,
+          "bears": 0
+        },
+        "statistics_history": [
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 92.0,
+              "avg_energy": 22.400000000000148,
+              "total_energy": 44.800000000000296
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 44.800000000000296,
+              "species_diversity": 1,
+              "step": 143
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 93.0,
+              "avg_energy": 22.100000000000147,
+              "total_energy": 44.200000000000294
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 44.200000000000294,
+              "species_diversity": 1,
+              "step": 144
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 94.0,
+              "avg_energy": 21.800000000000146,
+              "total_energy": 43.60000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 43.60000000000029,
+              "species_diversity": 1,
+              "step": 145
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 95.0,
+              "avg_energy": 21.500000000000146,
+              "total_energy": 43.00000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 43.00000000000029,
+              "species_diversity": 1,
+              "step": 146
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 96.0,
+              "avg_energy": 21.200000000000145,
+              "total_energy": 42.40000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 42.40000000000029,
+              "species_diversity": 1,
+              "step": 147
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 97.0,
+              "avg_energy": 20.900000000000144,
+              "total_energy": 41.80000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 41.80000000000029,
+              "species_diversity": 1,
+              "step": 148
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 2,
+              "avg_age": 98.0,
+              "avg_energy": 20.600000000000144,
+              "total_energy": 41.20000000000029
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 2,
+              "total_energy": 41.20000000000029,
+              "species_diversity": 1,
+              "step": 149
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 98.0,
+              "avg_energy": 20.600000000000144,
+              "total_energy": 20.600000000000144
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.600000000000144,
+              "species_diversity": 1,
+              "step": 150
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 99.0,
+              "avg_energy": 20.300000000000143,
+              "total_energy": 20.300000000000143
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 20.300000000000143,
+              "species_diversity": 1,
+              "step": 151
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 0,
+              "total_energy": 0,
+              "species_diversity": 0,
+              "step": 152
+            }
+          }
+        ],
+        "ecosystem_stable": false
+      },
+      "analysis": {
+        "stability_score": 0.0,
+        "diversity_score": 0.0,
+        "balance_score": 0.0,
+        "overall_score": 0.0,
+        "surviving_species": 0,
+        "total_organisms": 0,
+        "trophic_levels": 0
+      }
+    },
+    {
+      "run": 4,
+      "result": {
+        "final_step": 169,
+        "final_populations": {
+          "grass": 0,
+          "trees": 0,
+          "rabbits": 0,
+          "deer": 0,
+          "wolves": 0,
+          "hawks": 0,
+          "bears": 0
+        },
+        "statistics_history": [
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 91.0,
+              "avg_energy": 80.80000000000018,
+              "total_energy": 80.80000000000018
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 80.80000000000018,
+              "species_diversity": 1,
+              "step": 160
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 92.0,
+              "avg_energy": 80.50000000000018,
+              "total_energy": 80.50000000000018
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 80.50000000000018,
+              "species_diversity": 1,
+              "step": 161
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 93.0,
+              "avg_energy": 80.20000000000019,
+              "total_energy": 80.20000000000019
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 80.20000000000019,
+              "species_diversity": 1,
+              "step": 162
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 94.0,
+              "avg_energy": 79.90000000000019,
+              "total_energy": 79.90000000000019
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 79.90000000000019,
+              "species_diversity": 1,
+              "step": 163
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 95.0,
+              "avg_energy": 79.6000000000002,
+              "total_energy": 79.6000000000002
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 79.6000000000002,
+              "species_diversity": 1,
+              "step": 164
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 96.0,
+              "avg_energy": 79.3000000000002,
+              "total_energy": 79.3000000000002
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 79.3000000000002,
+              "species_diversity": 1,
+              "step": 165
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 97.0,
+              "avg_energy": 79.0000000000002,
+              "total_energy": 79.0000000000002
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 79.0000000000002,
+              "species_diversity": 1,
+              "step": 166
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 98.0,
+              "avg_energy": 78.7000000000002,
+              "total_energy": 78.7000000000002
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 78.7000000000002,
+              "species_diversity": 1,
+              "step": 167
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 1,
+              "avg_age": 99.0,
+              "avg_energy": 78.4000000000002,
+              "total_energy": 78.4000000000002
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 78.4000000000002,
+              "species_diversity": 1,
+              "step": 168
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 0,
+              "total_energy": 0,
+              "species_diversity": 0,
+              "step": 169
+            }
+          }
+        ],
+        "ecosystem_stable": false
+      },
+      "analysis": {
+        "stability_score": 0.0,
+        "diversity_score": 0.0,
+        "balance_score": 0.0,
+        "overall_score": 0.0,
+        "surviving_species": 0,
+        "total_organisms": 0,
+        "trophic_levels": 0
+      }
+    },
+    {
+      "run": 5,
+      "result": {
+        "final_step": 200,
+        "final_populations": {
+          "grass": 0,
+          "trees": 0,
+          "rabbits": 0,
+          "deer": 1,
+          "wolves": 0,
+          "hawks": 0,
+          "bears": 0
+        },
+        "statistics_history": [
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 48.0,
+              "avg_energy": 35.600000000000136,
+              "total_energy": 35.600000000000136
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 35.600000000000136,
+              "species_diversity": 1,
+              "step": 191
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 49.0,
+              "avg_energy": 35.30000000000014,
+              "total_energy": 35.30000000000014
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 35.30000000000014,
+              "species_diversity": 1,
+              "step": 192
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 50.0,
+              "avg_energy": 35.00000000000014,
+              "total_energy": 35.00000000000014
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 35.00000000000014,
+              "species_diversity": 1,
+              "step": 193
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 51.0,
+              "avg_energy": 34.700000000000145,
+              "total_energy": 34.700000000000145
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 34.700000000000145,
+              "species_diversity": 1,
+              "step": 194
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 52.0,
+              "avg_energy": 34.40000000000015,
+              "total_energy": 34.40000000000015
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 34.40000000000015,
+              "species_diversity": 1,
+              "step": 195
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 53.0,
+              "avg_energy": 34.10000000000015,
+              "total_energy": 34.10000000000015
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 34.10000000000015,
+              "species_diversity": 1,
+              "step": 196
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 54.0,
+              "avg_energy": 33.80000000000015,
+              "total_energy": 33.80000000000015
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 33.80000000000015,
+              "species_diversity": 1,
+              "step": 197
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 55.0,
+              "avg_energy": 33.500000000000156,
+              "total_energy": 33.500000000000156
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 33.500000000000156,
+              "species_diversity": 1,
+              "step": 198
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 56.0,
+              "avg_energy": 33.20000000000016,
+              "total_energy": 33.20000000000016
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 33.20000000000016,
+              "species_diversity": 1,
+              "step": 199
+            }
+          },
+          {
+            "grass": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "trees": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "rabbits": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "deer": {
+              "count": 1,
+              "avg_age": 57.0,
+              "avg_energy": 32.90000000000016,
+              "total_energy": 32.90000000000016
+            },
+            "wolves": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "hawks": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "bears": {
+              "count": 0,
+              "avg_age": 0,
+              "avg_energy": 0,
+              "total_energy": 0
+            },
+            "ecosystem": {
+              "total_organisms": 1,
+              "total_energy": 32.90000000000016,
+              "species_diversity": 1,
+              "step": 200
+            }
+          }
+        ],
+        "ecosystem_stable": true
+      },
+      "analysis": {
+        "stability_score": 0.05,
+        "diversity_score": 0.14285714285714285,
+        "balance_score": 0.25,
+        "overall_score": 0.13785714285714284,
+        "surviving_species": 1,
+        "total_organisms": 1,
+        "trophic_levels": 1
+      }
+    }
+  ]
+}
