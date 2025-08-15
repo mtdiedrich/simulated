@@ -16,10 +16,23 @@ A neural network-based bot that learns to play Need for Speed: Carbon by watchin
 
 ## Soccer Simulation Overview
 
-This project implements a simple soccer environment where two AI agents learn to play soccer through reinforcement learning. The simulation uses Q-learning with an epsilon-greedy policy to train agents that can move around a soccer field, chase the ball, and attempt to score goals.
+This project implements both 2D and 3D soccer environments where AI agents learn to play soccer through reinforcement learning. 
+
+### 2D Soccer Simulation
+The original 2D simulation uses Q-learning with an epsilon-greedy policy to train agents that can move around a soccer field, chase the ball, and attempt to score goals.
+
+### 3D Soccer Simulation (NEW!)
+The enhanced 3D simulation adds full physics simulation with:
+- **3D Physics Engine**: Complete collision detection and resolution
+- **Realistic Ball Physics**: Gravity, bouncing, air resistance, and spin
+- **Player Colliders**: Sphere colliders for players and ball with collision resolution
+- **3D Field**: Field boundaries, walls, goal posts, and ground plane
+- **Extended Actions**: Jump, power kicks, headers, and 3D movement
+- **Advanced AI**: Enhanced state space with 3D coordinates and height awareness
 
 ## Features
 
+### 2D Soccer Simulation
 - **2D Soccer Field**: Simple rectangular field with goals on each side
 - **Physics Simulation**: Basic ball physics with movement, friction, and collision
 - **AI Agents**: Two learning agents using Q-learning for decision making
@@ -27,18 +40,80 @@ This project implements a simple soccer environment where two AI agents learn to
 - **Training Loop**: Automated training with progress tracking and statistics
 - **Visualization**: ASCII-based field visualization to monitor agent behavior
 
+### 3D Soccer Simulation (NEW!)
+- **3D Soccer Field**: Full 3D field with boundaries, walls, goal posts, and colliders
+- **Advanced Physics**: Complete physics engine with gravity, collision detection, and resolution
+- **Realistic Ball Physics**: 3D ball movement with bouncing, air resistance, and realistic trajectories
+- **Player Physics**: 3D agent movement with jumping, collision detection, and realistic movement
+- **Enhanced AI**: Extended action space (12 actions) and 3D-aware state representation
+- **Collision System**: Sphere and box colliders for realistic object interactions
+- **3D Visualization**: ASCII visualization with height information and jumping indicators
+
+## Quick Start
+
+### 2D Soccer Simulation
+```python
+from soccer_simulation import SoccerSimulation
+
+# Create and run 2D simulation
+sim = SoccerSimulation()
+result = sim.run_episode()
+print(f"Episode completed in {result['steps']} steps")
+print(f"Final score: {result['final_score']}")
+```
+
+### 3D Soccer Simulation
+```python
+from soccer_simulation_3d import Soccer3DSimulation
+
+# Create and run 3D simulation with physics
+sim = Soccer3DSimulation()
+result = sim.run_episode()
+print(f"Episode completed in {result['steps']} steps")
+print(f"Final score: {result['final_score']}")
+
+# Show 3D visualization
+print(sim.visualize_ascii_3d())
+```
+
+### Running Tests
+```bash
+# Test 2D simulation
+python test_simulation.py
+
+# Test 3D simulation
+python test_simulation_3d.py
+
+# Quick 3D feature demo
+python quick_3d_test.py
+
+# Full interactive demo
+python demo_3d_soccer.py
+```
+
 ## Components
 
 ### Core Classes
 
+**2D Simulation:**
 - **Vector2D**: 2D vector mathematics for positions and velocities
 - **SoccerField**: Field boundaries, goals, and collision detection
 - **Ball**: Ball physics with movement, friction, and kicking mechanics
 - **Agent**: AI agent with Q-learning, action selection, and reward processing
 - **SoccerSimulation**: Main simulation orchestrating the entire game
 
+**3D Simulation (NEW!):**
+- **Vector3D**: 3D vector mathematics with dot/cross products and advanced operations
+- **Collider**: Base class for collision detection (SphereCollider, BoxCollider)
+- **PhysicsEngine**: Complete physics simulation with collision detection and resolution
+- **SoccerField3D**: 3D field with boundaries, walls, goal posts, and colliders
+- **Ball3D**: 3D ball with gravity, bouncing, air resistance, and realistic physics
+- **Agent3D**: 3D agent with jumping, collision detection, and enhanced AI
+- **Soccer3DSimulation**: Main 3D simulation with physics integration
+
 ### Learning System
 
+**2D Learning:**
 - **Q-Learning**: Tabular reinforcement learning for agent decision making
 - **State Space**: Discretized positions and game conditions
 - **Action Space**: 8-directional movement with automatic ball kicking
@@ -47,6 +122,21 @@ This project implements a simple soccer environment where two AI agents learn to
   - -100 for opponent scoring
   - Small rewards for ball possession and good positioning
   - Penalties for being too far from action
+
+**3D Learning (Enhanced):**
+- **Q-Learning**: Extended Q-learning with 3D state awareness
+- **State Space**: 3D discretized positions, ball height, jumping states, and tactical awareness
+- **Action Space**: 12 actions including:
+  - 8-directional horizontal movement
+  - Jump action for aerial play
+  - Brake/stop action
+  - Power kick for stronger shots
+  - Header/precise kick for aerial balls
+- **Enhanced Rewards**:
+  - All 2D rewards plus:
+  - Rewards for aerial ball control
+  - Penalties for excessive jumping
+  - Tactical positioning rewards based on ball height
 
 ## Need for Speed: Carbon Bot
 
@@ -161,13 +251,15 @@ This simulation provides a foundation that can be extended in many ways:
 - **Policy Gradient Methods**: Implement PPO or A3C for continuous actions
 - **Multi-Agent Learning**: Advanced algorithms for competitive scenarios
 
-### Improved Physics
-- **Continuous Actions**: Replace discrete movement with continuous control
-- **Advanced Ball Physics**: Spin, bounce, and more realistic movement
-- **Player Physics**: Acceleration, momentum, and collision between players
+### Improved Physics ✅ (IMPLEMENTED in 3D version)
+- ✅ **3D Physics Engine**: Complete collision detection and resolution
+- ✅ **Advanced Ball Physics**: Gravity, bouncing, air resistance, and realistic trajectories
+- ✅ **Player Physics**: 3D movement, jumping, and collision between players
+- ✅ **Continuous Actions**: Enhanced action space with jumping and special moves
 
-### Rich Environment
-- **Visual Interface**: Pygame or similar for real-time visualization
+### Rich Environment ✅ (PARTIALLY IMPLEMENTED)
+- ✅ **3D Visualization**: ASCII visualization with height information
+- **Visual Interface**: Pygame or similar for real-time 3D visualization
 - **Multiple Players**: Extend to 2v2 or larger teams
 - **Field Complexity**: Obstacles, different field shapes, or multiple balls
 
@@ -175,6 +267,7 @@ This simulation provides a foundation that can be extended in many ways:
 - **Team Communication**: Allow agents to share information
 - **Strategy Learning**: Higher-level tactical planning
 - **Tournament Mode**: Multiple agents competing in brackets
+- ✅ **Enhanced State Space**: 3D coordinates and tactical awareness
 
 ## Technical Details
 
