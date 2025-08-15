@@ -1,8 +1,20 @@
-# 1v1 Soccer Simulation
+# Simulated Gaming AI
 
-A reinforcement learning simulation where two agents learn to play 1v1 soccer against each other.
+A comprehensive AI simulation platform featuring:
+1. **1v1 Soccer Simulation** - Reinforcement learning agents that learn to play soccer
+2. **Need for Speed: Carbon Bot** - Neural network that learns to play NFS Carbon from human gameplay
 
-## Overview
+## Projects
+
+### 1. Soccer Simulation (Reinforcement Learning)
+
+A 1v1 soccer environment where two AI agents learn to play soccer through Q-learning reinforcement learning.
+
+### 2. Need for Speed: Carbon Bot (Imitation Learning)
+
+A neural network-based bot that learns to play Need for Speed: Carbon by watching and imitating human gameplay.
+
+## Soccer Simulation Overview
 
 This project implements a simple soccer environment where two AI agents learn to play soccer through reinforcement learning. The simulation uses Q-learning with an epsilon-greedy policy to train agents that can move around a soccer field, chase the ball, and attempt to score goals.
 
@@ -36,7 +48,62 @@ This project implements a simple soccer environment where two AI agents learn to
   - Small rewards for ball possession and good positioning
   - Penalties for being too far from action
 
-## Usage
+## Need for Speed: Carbon Bot
+
+### Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Collect training data (5 minutes of gameplay)
+python train_nfs_bot.py collect --duration 5
+
+# Train the neural network
+python train_nfs_bot.py train --epochs 20
+
+# Run the trained bot
+python train_nfs_bot.py run path/to/model.pth
+
+# Interactive example
+python nfs_bot_example.py
+```
+
+### How It Works
+
+1. **Data Collection**: Records your screen and inputs while playing NFS Carbon
+2. **Neural Network Training**: Trains a CNN to map screen captures to actions
+3. **Bot Execution**: Uses the trained model to play the game autonomously
+
+### Features
+
+- **Screen Capture**: Real-time capture of game footage
+- **Input Monitoring**: Records keyboard and mouse inputs
+- **CNN Model**: Deep learning model for action prediction
+- **Bot Controller**: Autonomous game playing with input simulation
+- **Training Pipeline**: Complete workflow from data to trained bot
+
+### System Requirements
+
+- Python 3.7+
+- Need for Speed: Carbon game
+- Adequate GPU recommended for training (CPU works but slower)
+
+### File Structure
+
+```
+├── train_nfs_bot.py          # Main training script
+├── nfs_bot_controller.py     # Bot controller for autonomous play
+├── nfs_bot_model.py          # Neural network model
+├── data_collector.py         # Data collection system
+├── screen_capture.py         # Screen capture utilities
+├── input_capture.py          # Input monitoring utilities
+├── nfs_bot_example.py        # Interactive examples
+├── nfs_training_data/        # Training data storage
+└── nfs_models/               # Saved models
+```
+
+## Soccer Simulation (Original)
 
 ### Running the Simulation
 
